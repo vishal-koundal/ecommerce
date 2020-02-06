@@ -16,14 +16,11 @@ export default class HTML extends React.Component {
           />
 
           {/* Add custom css or scripts here */}
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
-          />
           <script
             defer
             src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
           />
+          <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
           <link
             href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
             rel="stylesheet"
