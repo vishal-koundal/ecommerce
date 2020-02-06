@@ -6,6 +6,8 @@ import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import Store from '../components/Store';
 import HomeAbout from './HomeAbout';
+import Tabsss from '../components/Tabsss';
+
 
 export default class IndexPage extends React.Component {
   render() {
@@ -16,6 +18,7 @@ export default class IndexPage extends React.Component {
           <Hero />
           <Store />
           <HomeAbout />
+          <Tabsss />
         </div>
       </Layout>
     );
