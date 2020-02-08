@@ -21,7 +21,13 @@ export default () => (
         <Tab>Reviews</Tab>
       </TabList>
       <TabPanel>
-        <h2>Any content 1</h2>
+        <h2>
+          Authentic keffiyeh master cleanse. Fingerstache semiotics PBR quinoa.
+          Pop-up Godard kale chips, trust fund Neutra fingerstache paleo Wes
+          Anderson. Deep v single-origin coffee cred Thundercats beard.
+          Mumblecore before they sold out roof party biodiesel. Banksy swag
+          Portland readymade synth messenger bag cliche.
+        </h2>
       </TabPanel>
       <TabPanel>
         <h2>Any content 2</h2>

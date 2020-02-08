@@ -1,13 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import Seo from '../components/Seo';
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import Store from '../components/Store';
-import HomeAbout from './HomeAbout';
+import HomeAbout from '../components/HomeAbout';
 import Tabsss from '../components/Tabsss';
-
+import ProductDetail from '../components/ProductDetail';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -18,7 +17,7 @@ export default class IndexPage extends React.Component {
           <Hero />
           <Store />
           <HomeAbout />
-          <Tabsss />
+          <ProductDetail />
         </div>
       </Layout>
     );

@@ -48,6 +48,9 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: ${theme.secondaryFontFamily};
   }
+  .text-gray-700 {
+    color: #777777;
+  }
 `;
 
 export default GlobalStyle;
