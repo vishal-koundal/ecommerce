@@ -23,7 +23,7 @@ const Container = styled.div`
 `;
 
 export default () => (
-  <Container className="text-left md:text-center ">
+  <Container className="container mx-auto text-left md:text-center ">
     <Tabs>
       <TabList className="grid md:flex justify-start md:justify-center">
         <Tab>

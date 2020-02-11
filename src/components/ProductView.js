@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import Social from './Social';
 
 const Container = styled.div`
   background: #eeeeee;
@@ -44,24 +45,30 @@ const ProductView = () => {
             personalized look.
           </p>
           <div className="flex py-1 counter justify-center items-center text-black">
-            <button className="text-2xl px-4 focus:outline-none" type="button" onClick={subtract}>
+            <button
+              className="text-2xl px-4 focus:outline-none"
+              type="button"
+              onClick={subtract}
+            >
               <i className="fas fa-caret-left" />
             </button>
             <p>{count}</p>
-            <button className="text-2xl px-4 focus:outline-none" type="button" onClick={add}>
+            <button
+              className="text-2xl px-4 focus:outline-none"
+              type="button"
+              onClick={add}
+            >
               <i className="fas fa-caret-right" />
             </button>
           </div>
           <button
             className="text-base w-full text-center py-3 bg-black text-white mb-6"
-            type="button">
+            type="button"
+          >
             Add to cart
           </button>
-          <div className="flex text-gray-700">
-            <i className="fas fa-heart mr-4 hover:text-black" />
-            <i className="fab fa-facebook-f mr-4 hover:text-black" />
-            <i className="fab fa-twitter mr-4 hover:text-black" />
-            <i className="fab fa-pinterest mr-4 hover:text-black" />
+          <div>
+            <Social />
           </div>
         </div>
       </div>

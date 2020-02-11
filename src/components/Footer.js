@@ -1,4 +1,5 @@
 import React from 'react';
+import Social from './Social';
 
 const Footer = () => (
   <footer className="container bg-white text-gray-600 work-sans leading-normal text-base tracking-normal mx-auto bg-white py-8 border-solid border-t border-gray-400">
@@ -17,15 +18,9 @@ const Footer = () => (
         <div className="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
           <div className="px-3 md:px-0">
             <h3 className="font-bold text-gray-900">Social</h3>
-            <ul className="list-reset items-center pt-3">
-              <li>
-                <a
-                  className="inline-block no-underline hover:text-black hover:underline py-1"
-                  href="#">
-                  Add social links
-                </a>
-              </li>
-            </ul>
+            <div className="items-center pt-3">
+              <Social />{' '}
+            </div>
           </div>
         </div>
       </div>
